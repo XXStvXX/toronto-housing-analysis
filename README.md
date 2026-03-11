@@ -8,7 +8,7 @@ This project analyzes housing affordability in Toronto using public data.
 - Visualize key market patterns
 - Build a simple regression model to study drivers of affordability
 
-## Tools
+## Tools (I guess these would be used)
 - Python
 - pandas
 - matplotlib
@@ -19,6 +19,29 @@ This project analyzes housing affordability in Toronto using public data.
 - City of Toronto Open Data
 - Toronto Housing Data Hub
 - CMHC Rental Market Data
+
+## Project Structure
+**i. toronto-housing-analysis**
+
+**ii. data**
+- raw            original datasets
+- cleaned        processed datasets
+
+**iii. notebooks**
+- 01_data_cleaning.ipynb
+- 02_exploratory_analysis.ipynb
+- 03_regression_model.ipynb
+
+**iv. outputs**
+- figures
+- tables
+
+**v. src**
+- utils.py
+
+**vi. README.md**
+- requirements.txt
+- .gitignore
 
 ## Project Status
 In progress
